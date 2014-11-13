@@ -1,7 +1,7 @@
 require 'csv'
 require 'prawn/measurement_extensions'
 require 'prawn/layout'
-require 'RMagick'
+require 'rmagick'
 
 class ExportGenerator
   CHILD_IDENTIFIERS = %w(unique_identifier short_id)
